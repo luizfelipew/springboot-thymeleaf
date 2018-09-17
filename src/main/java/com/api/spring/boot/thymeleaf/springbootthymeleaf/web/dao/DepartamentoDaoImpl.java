@@ -1,4 +1,9 @@
 package com.api.spring.boot.thymeleaf.springbootthymeleaf.web.dao;
 
-public class DepartamentoDaoImpl {
+import com.api.spring.boot.thymeleaf.springbootthymeleaf.web.domain.Departamento;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class DepartamentoDaoImpl extends AbstractDao<Departamento, Long> implements DepartamentoDao{
+
 }
