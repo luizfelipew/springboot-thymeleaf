@@ -1,7 +1,6 @@
 package com.api.spring.boot.thymeleaf.springbootthymeleaf;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringbootThymeleafApplication {
