@@ -1,5 +1,7 @@
 package com.api.spring.boot.thymeleaf.springbootthymeleaf.web.domain;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
