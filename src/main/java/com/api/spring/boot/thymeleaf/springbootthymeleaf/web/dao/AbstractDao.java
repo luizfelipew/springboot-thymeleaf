@@ -7,6 +7,7 @@ import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
 
+
 public abstract class AbstractDao<T, PK extends Serializable> {
 
     private final Class<T> entityClass = (Class<T>) ((ParameterizedType)  getClass().getAnnotatedSuperclass()).getActualTypeArguments()[0];

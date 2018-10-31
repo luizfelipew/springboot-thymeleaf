@@ -58,6 +58,12 @@
 			<artifactId>thymeleaf-layout-dialect</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.20.0-GA</version>
+		</dependency>
+
 		<!--&lt;!&ndash; https://mvnrepository.com/artifact/com.h2database/h2 &ndash;&gt;-->
 		<!--<dependency>-->
 			<!--<groupId>com.h2database</groupId>-->
